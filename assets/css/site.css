@@ -1,0 +1,83 @@
+.glass-panel {
+    background: rgba(26, 26, 26, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(244, 196, 48, 0.2);
+}
+
+.burgundy-container {
+    background-color: #812d26;
+}
+
+.text-glow {
+    text-shadow: 0 0 20px rgba(244, 196, 48, 0.5);
+}
+
+.btn-primary {
+    background-color: #f4c430;
+    color: #131313;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 20px rgba(244, 196, 48, 0.6);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #812d26;
+    color: #ffe3a1;
+    border: 1px solid #f4c430;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5f1410;
+    transform: translateY(-2px);
+}
+
+.steam-animation {
+    animation: rise 5s infinite linear;
+}
+
+@keyframes rise {
+    0% { transform: translateY(0) scale(1); opacity: 0.5; }
+    50% { opacity: 0.8; }
+    100% { transform: translateY(-100px) scale(1.5); opacity: 0; }
+}
+
+.order-drawer {
+    transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.order-drawer.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(110%);
+}
+
+.toast {
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.toast.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(12px);
+}
+
+.menu-extra {
+    transition: opacity 0.3s ease, max-height 0.4s ease;
+}
+
+.menu-extra.is-hidden {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.menu-extra.is-open {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 3rem;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html class="dark scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bongo Rosona Durgapur - Royal Biryani</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="assets/js/tailwind-config.js"></script>
+<link href="assets/css/site.css" rel="stylesheet"/>
+</head>
+<body class="bg-background text-on-background font-body-md relative overflow-x-hidden">
+<!-- Global Background Animation -->
+<!-- STITCH_SHADER_START:ANIMATION_5 class="fixed inset-0 w-full h-full z-[-1] opacity-30 pointer-events-none" -->
+<div class="fixed inset-0 w-full h-full z-[-1] opacity-30 pointer-events-none" style="display:block;">
+<canvas id="shader-canvas-ANIMATION_5" style="display:block;width:100%;height:100%"></canvas>
+<script src="assets/js/background.js"></script>
+</div>
+<!-- STITCH_SHADER_END:ANIMATION_5 -->
+<!-- TopNavBar -->
+<nav class="bg-background/80 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/20 shadow-lg flex justify-between items-center h-20 px-container-padding-mobile md:px-container-padding-desktop max-w-screen-2xl mx-auto">
+<div class="font-headline-md text-primary tracking-tight uppercase">
+            Bongo Rosona
+        </div>
+<div class="hidden md:flex items-center gap-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-label-md text-label-md" href="#menu">Menu</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-label-md text-label-md" href="#heritage">Our Story</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-label-md text-label-md" href="#gallery">Gallery</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-label-md text-label-md" href="#order" data-order>Reservations</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-300 font-label-md text-label-md" href="#contact">Contact</a>
+</div>
+<div>
+<button class="btn-primary font-label-md text-label-md px-6 py-2 rounded-lg scale-95 active:scale-90 transition-transform" data-order>
+                Order Now
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<section id="home" class="relative w-full h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover object-center transform scale-105 motion-safe:animate-[pulse_10s_ease-in-out_infinite]" data-alt="A macro shot of premium, steaming biryani with saffron strands and large chunks of marinated meat, served in a traditional copper handi, sitting on a rustic wooden table under warm, dramatic restaurant lighting. Rich, warm colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnulQaCppXYyt5sgok9mRhfuQPQKOv3MNS7IAQCsK_rESs0WKlYzAhf5dESboGFQ80nG9uyQgg8zZtnOMkO5XkPgNDZQ6Pb5nTUDhtjBxTwXXoZf3cgqnB_v1W_42hUqyUGrPyZYGzFtROOeL8bTCtHhVAiJMjg5ine-3wu_9DMsR6EpE61Txfo20vq33B5a3XT3DtDFkVndgfP8jDeUto5a07kiHvT3HQnx1ZJz-TfPKPTyAXagb76Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent"></div>
+<!-- Steam Effect Placeholder -->
+<div class="absolute inset-0 flex justify-center items-end pb-32 opacity-40 mix-blend-screen pointer-events-none steam-animation">
+<img class="w-1/2 h-1/2 object-contain filter blur-md" data-alt="Abstract white wisps of smoke or steam rising slowly against a dark background, evoking hot food." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0_kcssW2us5sOtbc9nmGhXXT9B5dOp5mmatUH9sEM8NkfYZyd-iGq2q1ke88q3nmSHU4XUe9OqYr0Ux3MaltzexZMI1fSn5mIiF5Igj3ve0p39gJu-03TcV6_lLS1i7CC01CAveH81XjltTFOEsX3aCjDWv8bGZ3K2GpEbYemHsMkNyHmpVsjtW5ALjzzQ5ujLaqlL_jY-rpNvFdCAN_TmvC70YIgEP1W9I-PXcGM9a5nS7Ecw0jQ0g"/>
+</div>
+</div>
+<div class="relative z-10 flex flex-col items-center text-center px-container-padding-mobile max-w-4xl mx-auto mt-12">
+<img class="w-32 h-32 md:w-48 md:h-48 mb-8 drop-shadow-2xl" data-alt="Bongo Rosona Durgapur logo, an elegant gold line-art drawing of a traditional cooking handi with ornate patterns, on a dark burgundy background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2QQR1q6nKe1oQUrQo_skXRYsLtF8V3ekPl8PEMP0wk307nCV5uEi1yWKf1s1S3UKJ0p2c5J9h8JMy79I63-l5Ie3Gm0PTZC9Bl9pe4x6ZMq7vuxUeRonFKxuDmzMzRUZMdFX_mgRHIzuMsw-Nsu7BOHNXnX9sB6u6LtAg60tmz9X-u0Y39h5jG6Kj9nuWySJIQtvCyDwGfLZ2AzDK1jjqL1qNQzwILb5YDdtkYNVvUq8yHMh-clkGWA"/>
+<h2 class="font-headline-md text-primary mb-2 tracking-widest uppercase">Authentic Taste. Royal Tradition.</h2>
+<h1 class="font-display-lg text-on-background mb-6 text-glow leading-tight">Where Every Grain<br/>Tells a Royal Story</h1>
+<p class="font-body-lg text-on-surface-variant mb-10 max-w-2xl">
+                Experience the rich aroma, authentic flavours, and irresistible taste of perfectly crafted biryani.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="btn-primary font-label-md text-label-md px-8 py-4 rounded-full text-lg shadow-[0_0_15px_rgba(244,196,48,0.4)]" data-order>
+                    Order Now
+                </button>
+<button class="btn-secondary font-label-md text-label-md px-8 py-4 rounded-full text-lg glass-panel" data-scroll-to="menu">
+                    Explore Our Menu
+                </button>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section id="heritage" class="py-section-gap px-container-padding-mobile md:px-container-padding-desktop max-w-screen-2xl mx-auto">
+<div class="flex flex-col md:flex-row items-center gap-gutter">
+<div class="w-full md:w-1/2">
+<h3 class="font-headline-md text-primary mb-4">Our Heritage</h3>
+<h2 class="font-headline-lg md:font-headline-lg text-on-background mb-6">More Than Food. It's a Royal Experience.</h2>
+<p class="font-body-lg text-on-surface-variant mb-6">
+                    Rooted in the royal kitchens of the Nawabs, Bongo Rosona brings the authentic art of Dum pukht cooking to Durgapur. We meticulously slow-cook our biryani in sealed handis, allowing the fragrant basmati rice, tender meats, and secret blend of roasted spices to meld into a symphony of flavours.
+                </p>
+<p class="font-body-md text-on-surface-variant">
+                    Every dish is a testament to our commitment to tradition, quality, and the profound joy of a truly magnificent meal.
+                </p>
+</div>
+<div id="gallery" class="w-full md:w-1/2 grid grid-cols-2 gap-4 relative">
+<div class="glass-panel rounded-3xl p-2 mt-8">
+<img class="w-full h-48 object-cover rounded-2xl" data-alt="Close up of raw spices including star anise, cinnamon sticks, cardamom, and saffron threads on a dark slate board, warmly lit." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0eKOjnH-4EPYDmKerSui1Vrfyd0qomrtrbn-OFisqHpUqS1b9s8rKPrNJpRq-zG856t6qZRokT-k-58CWa0iH1xhyEyXagbdvD_AR2ximaReIT2gSaDdLUx3a4YWEw2p9jk0WLJE2kIRXATqXPMUISLMycAuzStoUGaXxDJMk9_hhGZjiZ2oyPqv_DGqJ3NKgJ9hYTiZGYjXHptgiArqNwXbObeGt-c4FXXyt07Lyq-x4D4FxCf9C2g"/>
+</div>
+<div class="burgundy-container rounded-3xl p-2">
+<img class="w-full h-64 object-cover rounded-2xl" data-alt="A chef carefully sealing a large copper handi with dough, preparing for slow dum cooking. Warm, moody kitchen lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXpGY6pmtmGZGK35CpV-ir6CyrUJKoMlqvlskItHJ91k7lygniE4rOqVnGY5equztdI8D6U-KEjMvMcmJAgPqKbJ8Jhi17JCJOZwDmcZX6dsw2dB1SyOzVxnOen4VQNso9TFlhs7a996nnTzYpKJPHLQ2pVc0ogGBnPKWABkh1Ix0wZvuvpgftyUh8z57ZKiR6frjGAtNks6oqPf1aSXC122Srb7GRctBbL8inkdpitS4h6XctDoVr0w"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Signature Menu Section -->
+<section id="menu" class="py-section-gap px-container-padding-mobile md:px-container-padding-desktop max-w-screen-2xl mx-auto bg-surface-container-low rounded-[3rem] relative">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-on-background mb-4">Signature Creations</h2>
+<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto">Curated selections from our royal kitchen.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="glass-panel rounded-3xl overflow-hidden group cursor-pointer">
+<div class="h-64 relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A generous portion of Kolkata style chicken biryani with a large potato and boiled egg, garnished with fried onions, served on a dark ceramic plate." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtByTVdyAyJGtqHH0S4aNqpgt_XLwBw9ZPyOjEFacNZdzIR7_cFj2qOgu_WZrzXNUA14h80kLnr1cg_NEGOzqlpfVw8fVRB21D5CdyaN4GuEA1hViQXflmBOcea6c4SHKg-NECA97PeGEOxdXyTwzwRV-SrbO8MY0ecaLfMBSMP9C2zPqbL8LwF5dSthEgxH92480OuyeS3VROt-Ysgu4SZ06GWoXbRbAa5ifa3X7jxBNZuqGdaIJUUQ"/>
+<div class="absolute top-4 right-4 bg-error text-on-error px-3 py-1 rounded-full font-label-md text-xs">Best Seller</div>
+</div>
+<div class="p-6">
+<h3 class="font-headline-md text-primary mb-2">Royal Chicken Biryani</h3>
+<p class="font-body-md text-on-surface-variant mb-4">Fragrant basmati cooked with succulent chicken, signature potato, and aromatic spices.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline-md text-on-background">₹299</span>
+<button class="btn-primary w-10 h-10 rounded-full flex items-center justify-center" data-add="Royal Chicken Biryani" data-price="299" aria-label="Add Royal Chicken Biryani">
+<span class="material-symbols-outlined" data-icon="add">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="glass-panel rounded-3xl overflow-hidden group cursor-pointer">
+<div class="h-64 relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Rich, dark brown mutton rezala with tender pieces of meat on the bone, swimming in a thick, fragrant gravy, garnished with green chilies." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTIesjYHO2RmBr2e2IlHhZcaKAr0NZSt_OgHLoEF3rrOLsf9Ki0E9I8-eHA_9nUUpgFiSuhPh0fmEzqnYF6coxKR1570BD7CpVjczgYQsghnrZFbjI5kwrOadKY7eExx7BhrErVOHhwVWQpQp39Cy3DhPympqkXHOm3zqiZ3igjEIbS3a126-UWmxYuKHjeJugJAqOjKNeU6P3eVXAXgSxtVf0P5YEhocUYhnKadHVdj4C9eYuhiUtFA"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline-md text-primary mb-2">Nawabi Mutton Chaap</h3>
+<p class="font-body-md text-on-surface-variant mb-4">Slow-roasted mutton chops in a rich, creamy poppy seed and cashew gravy.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline-md text-on-background">₹349</span>
+<button class="btn-primary w-10 h-10 rounded-full flex items-center justify-center" data-add="Nawabi Mutton Chaap" data-price="349" aria-label="Add Nawabi Mutton Chaap">
+<span class="material-symbols-outlined" data-icon="add">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="glass-panel rounded-3xl overflow-hidden group cursor-pointer">
+<div class="h-64 relative overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Golden, crispy paneer tikka pieces skewered with onions and bell peppers, slightly charred at the edges, resting on a bed of fresh mint leaves." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCC8NeVQTK1oMAxmCyQReGlGTo1oXs2IPjhoCeBR4i_CbHC_Z0C5IikzSSiPINt1bI_0elurm7ky8kM9xe1eslMVN24Xes-DINGSAElN41XgWCyvHTIm3JZ5Eip09zKLKFhiqmFX1-W4r4IGbOmaNCZS2Q3ZailGJTmFKsxgjoI1xKnx49hAn8YLvmG7CUzrBOhydgSUYdmbEWcHtE5ugiCyRuda2-b0eiPONraUUyp9wd_y9gB8tWmcQ"/>
+</div>
+<div class="p-6">
+<h3 class="font-headline-md text-primary mb-2">Paneer Tikka Kebab</h3>
+<p class="font-body-md text-on-surface-variant mb-4">Cottage cheese cubes marinated in spiced yogurt and roasted in a traditional tandoor.</p>
+<div class="flex justify-between items-center">
+<span class="font-headline-md text-on-background">₹249</span>
+<button class="btn-primary w-10 h-10 rounded-full flex items-center justify-center" data-add="Paneer Tikka Kebab" data-price="249" aria-label="Add Paneer Tikka Kebab">
+<span class="material-symbols-outlined" data-icon="add">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div id="extra-menu" class="menu-extra is-hidden grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="glass-panel rounded-2xl p-5"><h3 class="font-headline-md text-primary">Saffron Firni</h3><p class="font-body-md text-on-surface-variant">Silky rice pudding finished with saffron and pistachio.</p></div>
+<div class="glass-panel rounded-2xl p-5"><h3 class="font-headline-md text-primary">Royal Shikanji</h3><p class="font-body-md text-on-surface-variant">A bright house lemonade with mint and roasted spices.</p></div>
+</div>
+<div class="mt-12 text-center">
+<button id="full-menu" class="btn-secondary font-label-md text-label-md px-8 py-3 rounded-full" aria-expanded="false">View Full Menu</button>
+</div>
+</section>
+<!-- Footer -->
+<footer id="contact" class="bg-surface-container-lowest w-full pt-section-gap pb-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-base px-container-padding-mobile md:px-container-padding-desktop max-w-screen-2xl mx-auto">
+<div class="font-headline-lg text-primary text-center md:text-left">
+            Bongo Rosona
+        </div>
+<div class="font-body-md text-on-surface-variant text-center my-4 md:my-0">
+            © 2024 Bongo Rosona Durgapur. A Unit of Royal Biryani. Crafted with Heritage.
+        </div>
+<div class="flex gap-6 font-label-md text-label-md">
+<a class="text-on-surface-variant hover:text-primary hover:translate-x-1 transition-transform duration-200" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-primary hover:translate-x-1 transition-transform duration-200" href="#">Terms of Service</a>
+<a class="text-on-surface-variant hover:text-primary hover:translate-x-1 transition-transform duration-200" href="#">FAQ</a>
+<a class="text-on-surface-variant hover:text-primary hover:translate-x-1 transition-transform duration-200" href="#">Locations</a>
+</div>
+</footer>
+<aside id="order" class="order-drawer is-hidden fixed top-0 right-0 z-[60] h-full w-full max-w-md glass-panel p-8 shadow-2xl" aria-hidden="true">
+<div class="flex items-center justify-between mb-10">
+<h2 class="font-headline-lg text-primary">Your Order</h2>
+<button id="close-order" class="text-primary text-3xl leading-none" aria-label="Close order">&times;</button>
+</div>
+<div id="order-items" class="space-y-4 min-h-24">
+<p class="font-body-md text-on-surface-variant">Your royal table is waiting.</p>
+</div>
+<div class="border-t border-outline-variant/40 mt-8 pt-6 flex justify-between items-center">
+<span class="font-label-md text-on-surface-variant uppercase">Total</span>
+<strong id="order-total" class="font-headline-md text-primary">₹0</strong>
+</div>
+<button id="checkout" class="btn-primary w-full font-label-md text-label-md py-4 rounded-full mt-8">Continue to Checkout</button>
+</aside>
+<div id="toast" class="toast is-hidden fixed bottom-8 left-1/2 -translate-x-1/2 z-[70] burgundy-container border border-primary/50 px-6 py-3 rounded-full font-label-md text-primary shadow-xl" role="status"></div>
+<script src="assets/js/app.js"></script>
+</body></html>
